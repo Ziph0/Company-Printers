@@ -138,41 +138,50 @@ nav {backdrop-filter: blur(8px);
 <span class="bg-slate-800 px-4 py-2 rounded text-sm hover:bg-slate-700 border border-slate-700 transition">JavaScript Validation</span>
         </div>
     </section>
-   <section id="certifications" class="max-w-6xl mx-auto px-6 py-12">
-    <div class="flex justify-between items-end mb-10 border-b border-gray-800 pb-2">
-        <h3 class="text-2xl font-bold text-pink-400">Certifications & Specializations</h3>
-        <a href="https://learn.microsoft.com/en-us/users/noziphompiyakhe-3102/transcript/vmnlmieoelx240e" target="_blank" class="text-sm text-gray-400 hover:text-pink-400 transition mb-1">
-            <i class="fas fa-external-link-alt mr-1"></i> Verify via Microsoft Learn
+  <section id="certifications" class="max-w-6xl mx-auto px-6 py-12">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 border-b border-gray-800 pb-4 gap-4">
+        <div>
+            <h3 class="text-2xl font-bold text-pink-400">Certifications & Specializations</h3>
+            <p class="text-gray-500 text-sm mt-1">Verified Microsoft Cloud Credentials</p>
+        </div>
+        <a href="https://learn.microsoft.com/en-us/users/noziphompiyakhe-3102/transcript/vmnlmieoelx240e" target="_blank" class="group flex items-center bg-slate-800 hover:bg-pink-500 text-gray-300 hover:text-slate-950 px-4 py-2 rounded-lg text-sm transition-all duration-300">
+            <i class="fas fa-user-check mr-2"></i>
+            <span>Verify Transcript</span>
+            <i class="fas fa-external-link-alt ml-2 text-xs opacity-50 group-hover:opacity-100"></i>
         </a>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="card p-6 rounded-xl border border-gray-800 relative overflow-hidden group">
-            <div class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-100 transition">
-                <i class="fas fa-certificate text-pink-400"></i>
-            </div>
+        
+        <div class="card p-6 rounded-xl border border-gray-800 flex flex-col items-center text-center group">
+            <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main" alt="AZ-204 Badge" class="w-24 h-24 mb-4 drop-shadow-[0_0_10px_rgba(244,114,182,0.3)] group-hover:scale-110 transition-transform">
             <h4 class="text-white font-semibold">Azure Developer Associate</h4>
-            <p class="text-gray-400 text-xs mt-1">AZ-204 • Verified Credential</p>
+            <p class="text-gray-400 text-xs mt-1">AZ-204</p>
         </div>
 
-        <div class="card p-6 rounded-xl border border-pink-500/30 bg-pink-500/5">
-            <span class="text-[10px] bg-pink-500 text-white px-2 py-0.5 rounded-full uppercase font-bold">In Progress</span>
-            <h4 class="text-white font-semibold mt-2">DevOps Engineer Expert</h4>
-            <p class="text-gray-400 text-xs mt-1">AZ-400 (Training Completed)</p>
-            <div class="w-full bg-gray-700 h-1 mt-3 rounded-full overflow-hidden">
-                <div class="bg-pink-400 h-full w-[90%]"></div>
-            </div>
-        </div>
-
-        <div class="card p-6 rounded-xl border border-gray-800">
+        <div class="card p-6 rounded-xl border border-gray-800 flex flex-col items-center text-center group">
+            <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main" alt="AI-900 Badge" class="w-24 h-24 mb-4 drop-shadow-[0_0_10px_rgba(244,114,182,0.3)] group-hover:scale-110 transition-transform">
             <h4 class="text-white font-semibold">Azure AI Fundamentals</h4>
             <p class="text-gray-400 text-xs mt-1">AI-900</p>
         </div>
 
-        <div class="card p-6 rounded-xl border border-gray-800">
+        <div class="card p-6 rounded-xl border border-gray-800 flex flex-col items-center text-center group">
+            <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main" alt="AZ-900 Badge" class="w-24 h-24 mb-4 drop-shadow-[0_0_10px_rgba(244,114,182,0.3)] group-hover:scale-110 transition-transform">
             <h4 class="text-white font-semibold">Azure Fundamentals</h4>
             <p class="text-gray-400 text-xs mt-1">AZ-900</p>
         </div>
+
+        <div class="card p-6 rounded-xl border border-pink-500/30 bg-pink-500/5 flex flex-col justify-center">
+            <div class="flex justify-between items-start mb-4">
+                <span class="text-[9px] bg-pink-500 text-white px-2 py-0.5 rounded uppercase font-bold tracking-widest">Training Path</span>
+            </div>
+            <h4 class="text-white font-semibold">DevOps Engineer Expert</h4>
+            <p class="text-gray-400 text-[11px] mt-1 italic">Preparing for AZ-400</p>
+            <div class="w-full bg-slate-800 h-1.5 mt-4 rounded-full overflow-hidden">
+                <div class="bg-pink-400 h-full w-[85%] animate-pulse"></div>
+            </div>
+        </div>
+
     </div>
 </section>
 
