@@ -46,6 +46,9 @@ nav {backdrop-filter: blur(8px);
     scrollbar-width: thin;
     scrollbar-color: #f472b6 #0f172a;
 }
+        .custom-scrollbar::-webkit-scrollbar {
+    height: 4px; 
+}
     </style>
 </head>
 
@@ -53,7 +56,7 @@ nav {backdrop-filter: blur(8px);
 
    <nav class="fixed top-0 left-0 w-full bg-[#0f172a] z-50 border-b border-gray-800">
     
-    <div class="max-w-6xl mx-auto flex justify-between items-center p-4 md:p-6">
+    <div class="flex items-center space-x-6 text-gray-400 text-sm font-medium overflow-x-auto pb-2 custom-scrollbar">
     
     <a href="#home" class="font-bold text-lg text-pink-400 whitespace-nowrap">
         &lt;Nozipho /&gt;
