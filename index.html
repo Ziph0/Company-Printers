@@ -23,6 +23,29 @@
  section, header {scroll-margin-top: 100px;}
 nav {backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);}
+   
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f472b6; 
+    border-radius: 10px;
+    border: 2px solid #0f172a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ec4899; 
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #f472b6 #0f172a;
+}
     </style>
 </head>
 
