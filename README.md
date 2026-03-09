@@ -28,5 +28,5 @@ A full-stack modernization project featuring:
 * **AZ-400:** Designing and Implementing Microsoft DevOps Solutions (In Progress)
 
 ## Contact & Links
-* **Live Portfolio:** [Visit My Website]([(https://company-printers-ziph0.netlify.app/))
+* **Live Portfolio:** [Visit My Website](https://company-printers-ziph0.netlify.app/)
 * **GitHub:** [https://github.com/Ziph0](https://github.com/Ziph0)
